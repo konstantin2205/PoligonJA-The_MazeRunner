@@ -38,6 +38,10 @@ cout << "Arg1 / Arg2 = " << ResultOfMultiplication_g << "\r\n";
     return 0;	
 }
 //finctions 
+void test(int arg1)
+{
+	
+}
 int sum(int x, int y)
 {
 	return(x + y);
