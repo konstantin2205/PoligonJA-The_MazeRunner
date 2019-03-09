@@ -32,15 +32,30 @@ ResultOfMultiplication_g = dev( Arg1_g , Arg2_g );
 
 //printing  answers
 cout << "Arg1 + Arg2 = " << ResultOfSumation_g << "\r\n";
+test(ResultOfSumation_g);
 cout << "Arg1 - Arg2 = " << ResultOfSubtraction_g << "\r\n";
+test(ResultOfSubtraction_g);
 cout << "Arg1 * Arg2 = " << ResultOfDevision_g << "\r\n";
+test(ResultOfDevision_g);
 cout << "Arg1 / Arg2 = " << ResultOfMultiplication_g << "\r\n";
+test(ResultOfMultiplication_g);
     return 0;	
 }
 //finctions 
 void test(int arg1)
 {
-	
+    if (arg1 > 0)
+    {
+    	cout << "Greater than zero" << "\r\n";
+	}
+	if (arg1 < 0)
+	{
+		cout << "Lower than zero" << "\r\n";
+	}
+	if (arg1 == 0)
+	{
+		cout << "Equal to zero" << "\r\n";
+	}
 }
 int sum(int x, int y)
 {
