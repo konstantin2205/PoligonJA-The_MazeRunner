@@ -2,10 +2,11 @@
 using namespace std;
 
 //prototypes
-int sum( int x , int y);
-int sub( int x , int y);
-int mup( int x , int y);
-int dev( int x , int y );
+void test(int arg1);
+int sum(int x , int y);
+int sub(int x , int y);
+int mup(int x , int y);
+int dev(int x , int y);
 
 int main()
 {
