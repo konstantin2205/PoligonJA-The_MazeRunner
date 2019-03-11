@@ -1,7 +1,7 @@
 # PoligonJA-The_MazeRunner
    
 
-# 3/11
+# 3/9
 
 **1.Правилно, смислено наименование на променливите.**
 
@@ -13,27 +13,29 @@
 
 *3.2.Неуспешен резултат==>ремонт*
 
-** <=(по-голямо или равно)**
+# 3/11
 
-** !=(показва, че нещо е различно)**
+**<=(по-голямо или равно)**
 
-** условие(за срока >=3)
+**!=(показва, че нещо е различно)**
 
-** if(mark < 3) && (testType == Test)**
+**условие(за срока >=3)
+
+**if(mark < 3) && (testType == Test)**
 {
  mark = 2;
 }
 
-** bool girlWorthy(float brain, float humour, float kindness ); **
+**bool girlWorthy(float brain, float humour, float kindness ); **
 
-** if(((brain > 8) && (brain <= 10)) **
+**if(((brain > 8) && (brain <= 10))**
 
-** && ((houmour > 4) && (houmour <= 7)) **
+**&& ((houmour > 4) && (houmour <= 7))**
 
-** && ((kindness > 6) && (kindness <=8))) **
+**&& ((kindness > 6) && (kindness <=8)))**
 
-**  ** return(((brain > 8) && (brain <= 10)) **
+**return(((brain > 8) && (brain <= 10))**
 
-** && ((houmour > 4) && (houmour <= 7)) **
+**&& ((houmour > 4) && (houmour <= 7))**
 
-** && ((kindness > 6) && (kindness <=8)));-автроматично ни връща условиетоб  **
+**&& ((kindness > 6) && (kindness <=8)));-автроматично ни връща условието**
