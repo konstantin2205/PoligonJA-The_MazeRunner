@@ -15,18 +15,18 @@
 
 # 3/11
 
-**<=(по-голямо или равно)**
+**1.<=(по-голямо или равно)**
 
-**!=(показва, че нещо е различно)**
+**2.!=(показва, че нещо е различно)**
 
-**условие(за срока >=3)
+**3.условие(за срока >=3)**
 
-**if(mark < 3) && (testType == Test)**
-{
- mark = 2;
-}
+**4.if(mark < 3) && (testType == Test)**
+*{*
+*mark = 2;*
+*}*
 
-**bool girlWorthy(float brain, float humour, float kindness ); **
+**bool girlWorthy(float brain, float humour, float kindness );**
 
 **if(((brain > 8) && (brain <= 10))**
 
