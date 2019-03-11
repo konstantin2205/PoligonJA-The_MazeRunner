@@ -3,6 +3,7 @@ using namespace std;
 
 //prototypes
 void test(int arg1);
+bool girlWorthy(float brain, float humour, float kindness);
 int sum(int x , int y);
 int sub(int x , int y);
 int mup(int x , int y);
@@ -75,3 +76,8 @@ int dev(int x , int y )
 {
 	return(x / y);
 }
+bool girlWorthy(float brain, float humour, float kindness)
+{
+	return(((brain > 8) && (brain <= 10)) && ((humour > 4) && (humour <= 7)) && ((kindness > 6) && (kindness <= 8)));
+}
+
