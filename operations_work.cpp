@@ -56,6 +56,7 @@ void test(int arg1)
 	{
 		cout << "Equal to zero" << "\r\n";
 	}
+
 }
 int sum(int x, int y)
 {
